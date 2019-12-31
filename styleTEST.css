@@ -1,0 +1,68 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color:blue;
+    background-image:url(images/riddle.png);
+}
+h1 {
+    border: solid 1px white;
+    border-radius: 25px;
+    color: black;
+    background-color: rgb(128, 128, 128, .5);
+}
+
+#startbutton {
+    border: solid 1px black;
+    background-color: rgb(128, 128, 128, .5);
+    border-radius: 25px;
+}
+
+#container {
+    text-align: center;
+    
+}
+
+#content {
+    display: inline-block;
+    /* background-image: url(/images/riddle.png); */
+}
+
+#question1, #question2, #question3, #question4, #scoreboard {
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 255, .5);
+    size: 18px;
+    
+}
+
+button {
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#timer {
+    background-color: rgb(128, 128, 128, .5);
+    border: solid 1px black;
+    border-radius: 25px;    
+    color: black;
+
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}

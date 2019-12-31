@@ -1,22 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleTEST.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-<h1 class="quizheader">Jack's Amazing Quiz!</h1>
-<div id="quizbox">
-    <button id="startquiz">Start Quiz</button>
-    <div id="buttons"></div>
-</div>
-<div id="timer"></div>
-<div id="hiscores"></div>
+    <div id=container>
+    <div id="content">
 
 
+        <h1>Welcome to Jack's Quiz</h1>
+    </div>
+    <div id="startbutton">Start Quiz</div>
 
+    <div id="timer">
+        <p> You have <span id="countdowntimer"> </span> Seconds Remaining</p>
+    </div>
+
+    <div id="question1">
+        <strong>What is CSS used for?</strong>
+        <br>
+        <br>
+        <button id=falseOne>Carrying Slippery Skateboards</button>
+        <br>
+        <button id=correctOne>Cascading Style Sheets</button>
+        <br>
+        <button id=falseOneTwo>Math</button>
+        <br>
+        <button id=falseOneThree>Making sure Aslan remembers Dennis' name</button>
+    </div>
+    <div id="question2">
+        <strong>In Javascript, If, While, and For are considered...</strong>
+        <br>
+        <br>
+        <button id=correctTwo>Statements</button>
+        <br>
+        <button id=falseTwo>Quotes</button>
+        <br>
+        <button id=falseTwoTwo>Functions</button>
+        <br>
+        <button id=falseTwoThree>Event Handlers</button>
+
+    </div>
+
+    <div id="question3">
+        <strong>Which of these can be called upon more than once in CSS?</strong>
+        <br>
+        <br>
+        <button id=correctThree>Classes</button>
+        <br>
+        <button id=falseThree>ID's</button>
+        <br>
+        <button id=falseThreeTwo>Functions</button>
+        <br>
+        <button id=falseThreeThree>Burger King Chicken Fries</button>
+    </div>
+
+    <div id="question4">
+        <strong>A variable with "[ ]" after it would be called a/an</strong>
+        <br>
+        <br>
+        <button id=falseFour>Salmon Colored Shirt</button>
+        <br>
+        <button id=correctFour>Array</button>
+        <br>
+        <button id=falseFourTwo>For Loop</button>
+        <br>
+        <button id=falseFourThree>Integer</button>
+    </div>
+
+    <div id=scoreboard>
+        <h2>Your Previous Score</h2>
+        <p><strong><span id="name"></span>name</strong></p>
+        <p><strong><span id="score"></span>score</strong></p>
+           
+    </div>
+    <!-- <div class="score"> -->
+            
+    <!-- </div> -->
+    <!-- <script src="questionsTEST.js"></script> -->
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>

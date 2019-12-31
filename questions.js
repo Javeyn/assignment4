@@ -2,7 +2,10 @@ var quizBox= document.getElementById("quiz");
 var resultsBox = document.getElementById("results");
 var submitBtn = document.getElementById("submit")
 
-function startQuiz(){}
+// submitBtn.onclick = function(){
+
+//   btn.innerHTML = "CLICK ME";   
+// };
 
 function showScores(){};
 
@@ -35,9 +38,17 @@ var questions = [
       },
   ];
 
-  for(i = 0; i < choices.length; i++){
-      choices[i]
-  };
+//   for(i = 0; i < choices.length; i++){
+//       choices[i]
+//   };
 
-  document.getElementById("startquiz").addEventListener("click",startQuiz(){
-    ;
+  document.getElementById("startquiz").addEventListener("click", function (){
+    var questionBox = document.createElement("button");  
+    quizBox.textContent="testtest";
+    // var btn = document.createElement("BUTTON");  
+    // var btn = document.createElement("BUTTON");  
+    questionBox.innerText = "CLICK ME";                  
+    document.body.appendChild(btn);              
+  })
+
+  
